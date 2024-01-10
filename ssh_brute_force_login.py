@@ -9,7 +9,7 @@ host = "127.0.0.1"
 username = "kali"
 attempts = 0
 
-# Enter the file path or the file below
+#Enter the file path or the file below
 with open("ENTER PASSWORD FILE PATH OR FILE HERE", "r") as password_lists:
 	for password in password_lists:
 		password = password.strip("\n")
