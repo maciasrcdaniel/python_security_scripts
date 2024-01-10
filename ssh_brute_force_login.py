@@ -7,7 +7,7 @@ import paramiko
 host = "127.0.0.1"
 # Enter the username, if known, else you will have to attempt the same process with a user name wordlist
 username = "kali"
-# Track attempts of retries
+# Track attempt retries
 attempts = 0
 
 #Enter the file path or the file below
